@@ -38,9 +38,9 @@ Em caso de sucesso, os valores de acesso serão exibidos:
         Senha     : admin
 
     👉 Banco de dados
-            Hostname : bancodedados (172.20.0.2)
-            Usuário  : postgres
-            Senha    : postgres
+        Hostname : bancodedados (172.20.0.2)
+        Usuário  : postgres
+        Senha    : postgres
 
     Se o PgAdmin ou PostgreSQL não estiverem acessíveis, tente aguardar alguns instantes.
     Para diagnosticar problemas, confira os logs:
