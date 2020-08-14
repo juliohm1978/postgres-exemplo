@@ -26,10 +26,11 @@ Ao iniciar, alguns componentes serão instalados (jq) e alguns diretórios preci
 
     Vamos preparar seu ambiente...
 
-    ## Aguarde alguns instantes enquanto o ambiente é preprado.
-    ## A senha sudo será solicitada.
+    ## A senha sudo será solicitada para preparação.
 
-    ## ...
+Em caso de sucesso, os valores de acesso serão exibidos:
+
+    Aguarde alguns instantes... 
 
     👉 PgAdmin 
         Hostname  : http://172.20.0.3
@@ -37,9 +38,14 @@ Ao iniciar, alguns componentes serão instalados (jq) e alguns diretórios preci
         Senha     : admin
 
     👉 Banco de dados
-        Hostname : bancodedados (172.20.0.2)
-        Usuário  : postgres
-        Senha    : postgres
+            Hostname : bancodedados (172.20.0.2)
+            Usuário  : postgres
+            Senha    : postgres
+
+    Se o PgAdmin ou PostgreSQL não estiverem acessíveis, tente aguardar alguns instantes.
+    Para diagnosticar problemas, confira os logs:
+
+        make logs
 
 Quando obter os endereços e as credenciais, tente acessar o PgAdmin de seu navegador. Caso não esteja pronto, pode esperar alguns instantes.
 
