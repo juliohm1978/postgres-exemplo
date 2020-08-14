@@ -12,9 +12,9 @@ echo "       Usuário   : admin"
 echo "       Senha     : admin"
 echo
 echo "👉 Banco de dados"
-echo "        Hostname : bancodedados ($IP_DB)"
-echo "        Usuário  : postgres"
-echo "        Senha    : postgres"
+echo "       Hostname : bancodedados ($IP_DB)"
+echo "       Usuário  : postgres"
+echo "       Senha    : postgres"
 echo
 echo "Se o PgAdmin ou PostgreSQL não estiverem acessíveis, tente aguardar alguns instantes."
 echo "Para diagnosticar problemas, confira os logs:"
