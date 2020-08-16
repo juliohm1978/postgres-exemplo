@@ -1,6 +1,6 @@
 start:
 	bash -e init.sh
-	sudo docker-compose up --force-recreate -d
+	docker-compose up --force-recreate -d
 	bash -e getip.sh
 
 stop:
