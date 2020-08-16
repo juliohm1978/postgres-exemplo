@@ -4,7 +4,7 @@ start:
 	bash -e getip.sh
 
 stop:
-	sudo docker-compose stop
+	docker-compose stop
 
 clean:
 	make stop
